@@ -1,6 +1,6 @@
 package tpoint;
 // two objects creation
-
+//2 objects creating inside class
 public class Cricket1 {
 //variable decleration
 	String name;
