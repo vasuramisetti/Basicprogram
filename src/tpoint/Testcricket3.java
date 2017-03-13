@@ -1,7 +1,7 @@
 package tpoint;
 
 public class Testcricket3{
-	// Instance Variable (Variables Inside class But out side Method)
+	// Object calling through reference 
 	
 public static void main(String[] args) {
 		

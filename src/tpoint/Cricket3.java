@@ -1,7 +1,6 @@
 package tpoint;
-// Instance Variable (Variables Inside class But out side Method)
-public class Cricket3 {
 
+public class Cricket3 { 
 	//variable decleration
 		String name;
 		int age;
