@@ -1,27 +1,66 @@
 package tpoint;
 
-public class TestEmployeeDetails {
+public class TestEmployeeDetails extends EmployeeDetails  {
+	
+	private String street;
+	private int apt;
+	private String city;
+	private int zip;
+	private String state;
 
-	
-	
-	public static void main(String[] args){
-		
-		EmployeeDetails n1 = new EmployeeDetails();
-		n1.setname("Vasu");
-		n1.setid(9542);
-		n1.setcity("Fremont");
-		n1.setzip(94538);
-		n1.setdesignation("Java");
-	
-		
-System.out.println("Name:"+ " " +n1.getname());
-System.out.println("Employee Id:"+ " " +n1.getid());
-System.out.println("Designation:"+ " "+n1.getdesignation());
-System.out.println("city: "+ " " +n1.getcity());
-System.out.println("Zip code:"+ " " +n1.getzip());
-		
-		
-	}
-	
+public void setStreet(String street){
+	this.street=street;
 	
 }
+
+
+public String getstreet(){
+	return this.street;
+
+	
+}
+	public void setapt(int apt){
+		
+		this.apt=apt;
+	}
+	
+public int getapt(){
+	return this.apt;
+}
+	
+public void setzip(int zip){
+	
+	this.zip=zip;
+}
+
+public int getzip(){
+return this.zip;
+}
+
+
+public void setstate(String state){
+	
+	this.state=state;
+}
+
+public String getstate(){
+return this.state;
+}
+
+
+
+public  void setcity(String city){
+	this.city=city;
+	
+}
+
+public String getcity(){
+	
+	return this.city;
+
+}
+
+
+
+} 
+
